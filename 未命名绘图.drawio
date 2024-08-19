@@ -4,26 +4,32 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Jsb9VVntbA0bQaRAtVnW-1" value="DFSClient" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="130" y="200" width="120" height="60" as="geometry" />
+        <mxCell id="Jsb9VVntbA0bQaRAtVnW-1" value="DFSClient&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;#&lt;/span&gt;&lt;span style=&quot;background-color: rgb(230, 208, 222);&quot;&gt;rename(String，String)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="105" y="200" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Jsb9VVntbA0bQaRAtVnW-2" value="ClientNameNode&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;ProtocolTranslatorPB&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="90" y="340" width="220" height="90" as="geometry" />
+        <mxCell id="Jsb9VVntbA0bQaRAtVnW-2" value="ClientNameNode&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;ProtocolTranslatorPB&lt;/span&gt;&lt;div&gt;#(&lt;span style=&quot;background-color: initial;&quot;&gt;String,String)-&amp;gt;(RenameRequestProto)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;#&lt;/span&gt;&lt;span style=&quot;background-color: rgb(230, 208, 222);&quot;&gt;ClientNameNodeProtocolPB rpcProxy.rename(RenameRequestProto)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="330" width="250" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Jsb9VVntbA0bQaRAtVnW-3" value="Client" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="110" y="630" width="120" height="60" as="geometry" />
+        <mxCell id="Jsb9VVntbA0bQaRAtVnW-3" value="RPC.Client&lt;div&gt;#call()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="140" y="630" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Jsb9VVntbA0bQaRAtVnW-4" value="Server" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="550" y="630" width="120" height="60" as="geometry" />
+        <mxCell id="Jsb9VVntbA0bQaRAtVnW-4" value="RPC.Server" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="530" y="630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Jsb9VVntbA0bQaRAtVnW-5" value="ClientNameNode&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;ProtocolServerSide&lt;/span&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;TranslatorPB&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="470" y="340" width="220" height="90" as="geometry" />
+          <mxGeometry x="470" y="340" width="230" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Jsb9VVntbA0bQaRAtVnW-6" value="ProtobufRPCEngine.Invoker#invoke()" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="90" y="480" width="220" height="90" as="geometry" />
+        <mxCell id="Jsb9VVntbA0bQaRAtVnW-6" value="ProtobufRPCEngine.Invoker&lt;div&gt;#invoke()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="90" y="480" width="230" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Jsb9VVntbA0bQaRAtVnW-7" value="NameNodeRPCServer" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="510" y="200" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Jsb9VVntbA0bQaRAtVnW-8" value="BlockingService" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="475" y="480" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Jsb9VVntbA0bQaRAtVnW-10" value="DistributedFileSystem&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;#&lt;/span&gt;&lt;span style=&quot;background-color: rgb(230, 208, 222);&quot;&gt;rename(String，String)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="85" y="80" width="240" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
