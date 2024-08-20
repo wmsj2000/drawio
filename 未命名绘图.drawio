@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" version="24.7.7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" version="24.7.7" pages="2">
   <diagram name="第 1 页" id="1gWkztAwg8JG_-7GfO2X">
     <mxGraphModel dx="1018" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -147,6 +147,23 @@
         </mxCell>
         <mxCell id="Jsb9VVntbA0bQaRAtVnW-57" value="&lt;div style=&quot;text-align: center; font-size: 14px;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Stub程序&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="740" y="375" width="67.5" height="35" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Ta3k2bidiez0znWj4yCR" name="第 2 页">
+    <mxGraphModel dx="1018" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L4DqUZ7OmAKvQ0kOyD_Q-1" value="Length" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="180" y="300" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L4DqUZ7OmAKvQ0kOyD_Q-2" value="RpcRequestHeaderProto" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="260" y="300" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L4DqUZ7OmAKvQ0kOyD_Q-3" value="RpcRequest" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="490" y="300" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
