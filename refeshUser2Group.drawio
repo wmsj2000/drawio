@@ -26,7 +26,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="mCO2VHHa_s-uEJgRqC7Z-6" value="增加用户组" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="160" y="190" width="80" height="30" as="geometry" />
+          <mxGeometry x="140" y="190" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mCO2VHHa_s-uEJgRqC7Z-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="mCO2VHHa_s-uEJgRqC7Z-2" target="mCO2VHHa_s-uEJgRqC7Z-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -60,6 +60,18 @@
         </mxCell>
         <mxCell id="mCO2VHHa_s-uEJgRqC7Z-22" value="读写权限验证" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="100" y="300" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mCO2VHHa_s-uEJgRqC7Z-24" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;strokeColor=#FF9647;" edge="1" parent="1" target="mCO2VHHa_s-uEJgRqC7Z-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="220" as="sourcePoint" />
+            <mxPoint x="680" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mCO2VHHa_s-uEJgRqC7Z-25" value="更新nn内存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="280" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
