@@ -25,7 +25,7 @@
             <mxPoint x="440" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mCO2VHHa_s-uEJgRqC7Z-6" value="读写用户组" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="mCO2VHHa_s-uEJgRqC7Z-6" value="新增用户组" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="140" y="190" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mCO2VHHa_s-uEJgRqC7Z-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="mCO2VHHa_s-uEJgRqC7Z-2" target="mCO2VHHa_s-uEJgRqC7Z-3" edge="1">
@@ -100,9 +100,6 @@
             <mxPoint x="450" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JaQpb5AM8EqLyA6_vQZ3-8" value="读写用户组" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="150" y="570" width="80" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="JaQpb5AM8EqLyA6_vQZ3-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="JaQpb5AM8EqLyA6_vQZ3-4" target="JaQpb5AM8EqLyA6_vQZ3-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="810" as="sourcePoint" />
@@ -166,6 +163,9 @@
         </mxCell>
         <mxCell id="wtO0SEwGs1o5qlHKV27--2" value="每0.5小时被拉取" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="400" y="570" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wtO0SEwGs1o5qlHKV27--4" value="新增用户组" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="570" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
